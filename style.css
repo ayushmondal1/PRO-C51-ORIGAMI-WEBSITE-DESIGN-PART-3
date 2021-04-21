@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background-color: #FFFFFF;
+}
+.grid
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+p , h2 , li , ul
+{
+text-align: center;
+}
+h3{
+    text-align: left;
+}
+ul{
+    text-align: center;
+}
+.follow{
+    text-align: right;
+    fill: #ffffff;
+    
+}
+.site-description{
+    text-align: center;
+    border: solid #000000;
+    background-color: #7fff00;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6{
+        border: solid #000000;
+        background-color: #d3d3d3;
+}
+.grid{
+    border: solid #000000;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
